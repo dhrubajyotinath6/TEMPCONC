@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+    display: grid;
+    place-items: center;
+}
+
+#prompt{
+    font-size: 45px;
+    background-color: yellowgreen;
+    border: 2px solid blue;
+}
+
+#temp{
+    margin: 20px 20px 20px 20px;
+    font-size: 25px;
+}
+
+#temp_diff{
+    font-size: 25px;
+}
+
+#submitbtn{
+    margin: 20px 20px 20px 20px;
+    font-size: 25px;
+}
+
+
+
+#resultContainer1, #resultContainer2{
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

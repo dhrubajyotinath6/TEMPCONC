@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Temparature Converter</title>
+
+    <!-- <script>
+        const calculateTemp = () => {
+        
+        const numberTemp = document.getElementById('temp');
+        console.log(numberTemp);
+        }
+        </script> -->
+
+</head>
+
+
+<body>
+    <div id="div1">    
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+
+        <label for="temp" id="prompt">Enter the Temparature Please: </label>
+        <br/> <input type="number" name="temp" id="temp">
+
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel"> Celsius</option>
+            <option value="fah"> Fahrenheit</option>
+            <option value="kel"> Kelvin</option>
+        </select> <br/>
+
+        <input type="submit" name="temp" id="submitbtn"> <br/>
+
+        <span id="resultContainer1"></span>
+        <br/>
+        <span id="resultContainer2"></span>
+
+        
+    </form>
+   </div>
+
+    <script src="script.js"> </script>
+    
+</body>
+
+</html>
